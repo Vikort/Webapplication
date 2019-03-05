@@ -12,13 +12,18 @@
         <div>
             <h1>MainForm</h1>
             <input type="button" id="button" value="Дополнительная информация" />
+            <div>
+                <p>Docs tab isn't ready(only the select file button works) and the ok button encodes xml to base64 but doesn't send it to the main form.</p>
+            </div>
         </div>
             <script>
                  button.onclick = function() {
                        window.open('WebForm2.aspx', 'myWindow','toolbar=0, height=500, width=1000, resizable=1, scrollbars=1');
-                     window.focus();
+                       window.focus();
                  };
             </script>
+            <script src="Script/scriptfunc.js"></script>
+            
     </form>
 </body>
 </html>

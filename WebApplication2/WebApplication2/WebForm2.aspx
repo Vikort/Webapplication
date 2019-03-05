@@ -50,8 +50,9 @@
                         <option>Последняя страница кредитного договора</option>
                         <option>Последняя страница заявления на получения БПК</option>
                     </select>
-                    <input type="file" id="file" name="file" accept="image/*" runat="server" />
-                    <input type="button" id="photo" value="Сделать фото" />
+                    <input type="file" id="file" name="file" accept="image/*" runat="server"/>
+                    <input type="button" id="photo" value="Фото клиента" /> <br />
+                    <div id ="files"></div>
                 </div>
                 <div id="content2">Empty</div>
                 <div id="content3">
@@ -169,6 +170,7 @@
             <input type="button" id="okbutton" value="ok" />
             <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
             <script src="Script/jquery.maskedinput.js"></script>
+            <script src="Script/xml2json.js"></script>
             <script src="Script/scriptfunc.js"></script>
         </div>
     </form>

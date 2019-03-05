@@ -63,3 +63,9 @@ table,td {
 td {
     text-align:center;
 }
+#okbutton{
+    width: 100px;
+}
+#b64 {
+    display: none;
+}

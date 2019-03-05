@@ -68,15 +68,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="PhotoForm.aspx" />
-    <Content Include="sample-my.xml" />
-    <Content Include="sample.xml" />
     <Content Include="Script\jquery.maskedinput.js" />
     <Content Include="Script\jquery.maskedinput.min.js" />
     <Content Include="Script\scriptfunc.js" />
+    <Content Include="Script\xml2json.js" />
     <Content Include="Style\style.css" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
     <Content Include="WebForm2.aspx" />
+    <Content Include="sample-my.xml">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="PhotoForm.aspx.cs">
@@ -111,9 +113,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="File\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
